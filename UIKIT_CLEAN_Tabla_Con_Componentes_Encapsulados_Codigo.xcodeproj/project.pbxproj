@@ -6,36 +6,63 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CFC505192D4F9C49009550CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5050F2D4F9C49009550CC /* AppDelegate.swift */; };
+		CFC5051A2D4F9C49009550CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505162D4F9C49009550CC /* SceneDelegate.swift */; };
+		CFC5051B2D4F9C49009550CC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505172D4F9C49009550CC /* MainViewController.swift */; };
+		CFC5051C2D4F9C49009550CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC505102D4F9C49009550CC /* Assets.xcassets */; };
+		CFC5051E2D4F9C49009550CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC505132D4F9C49009550CC /* LaunchScreen.storyboard */; };
+		CFC5051F2D4F9C49009550CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC505152D4F9C49009550CC /* Main.storyboard */; };
+		CFC505462D4F9CFD009550CC /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5053C2D4F9CFD009550CC /* TestingViewController.swift */; };
+		CFC505482D4F9CFD009550CC /* ListOfCellIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505292D4F9CFD009550CC /* ListOfCellIDs.swift */; };
+		CFC505492D4F9CFD009550CC /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505212D4F9CFD009550CC /* EmptyCell.swift */; };
+		CFC5054A2D4F9CFD009550CC /* ItemListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505272D4F9CFD009550CC /* ItemListCell.swift */; };
+		CFC5054B2D4F9CFD009550CC /* LoadingOverlaySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5052D2D4F9CFD009550CC /* LoadingOverlaySingleton.swift */; };
+		CFC5054C2D4F9CFD009550CC /* ListOfPopularMoviesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505372D4F9CFD009550CC /* ListOfPopularMoviesDataModel.swift */; };
+		CFC5054E2D4F9CFD009550CC /* CustomStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505432D4F9CFD009550CC /* CustomStyles.swift */; };
+		CFC5054F2D4F9CFD009550CC /* ButtonFillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5052F2D4F9CFD009550CC /* ButtonFillView.swift */; };
+		CFC505502D4F9CFD009550CC /* SensitiveConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505442D4F9CFD009550CC /* SensitiveConfiguration.swift */; };
+		CFC505512D4F9CFD009550CC /* ListOfPopularMoviesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505362D4F9CFD009550CC /* ListOfPopularMoviesDataManager.swift */; };
+		CFC505522D4F9CFD009550CC /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505422D4F9CFD009550CC /* Configuration.swift */; };
+		CFC505532D4F9CFD009550CC /* InfoMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC505242D4F9CFD009550CC /* InfoMessageCell.swift */; };
+		CFC5055B2D4F9DBA009550CC /* ListOfPopularMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5055A2D4F9DBA009550CC /* ListOfPopularMoviesViewController.swift */; };
+		CFC5055E2D4F9F9B009550CC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CFC5055D2D4F9F9B009550CC /* Kingfisher */; };
+		CFD411B42D4FE37F00FA762B /* SensitiveConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFD411B32D4FE37F00FA762B /* SensitiveConfiguration.plist */; };
+		CFD411B72D4FEDA500FA762B /* InfoMessageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD411B62D4FEDA500FA762B /* InfoMessageCellViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CFC504F72D4F9C43009550CC /* UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC5050F2D4F9C49009550CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFC505102D4F9C49009550CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC505112D4F9C49009550CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC505122D4F9C49009550CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFC505142D4F9C49009550CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFC505162D4F9C49009550CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFC505172D4F9C49009550CC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CFC505212D4F9CFD009550CC /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
+		CFC505242D4F9CFD009550CC /* InfoMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMessageCell.swift; sourceTree = "<group>"; };
+		CFC505272D4F9CFD009550CC /* ItemListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCell.swift; sourceTree = "<group>"; };
+		CFC505292D4F9CFD009550CC /* ListOfCellIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCellIDs.swift; sourceTree = "<group>"; };
+		CFC5052D2D4F9CFD009550CC /* LoadingOverlaySingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlaySingleton.swift; sourceTree = "<group>"; };
+		CFC5052F2D4F9CFD009550CC /* ButtonFillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFillView.swift; sourceTree = "<group>"; };
+		CFC505362D4F9CFD009550CC /* ListOfPopularMoviesDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPopularMoviesDataManager.swift; sourceTree = "<group>"; };
+		CFC505372D4F9CFD009550CC /* ListOfPopularMoviesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPopularMoviesDataModel.swift; sourceTree = "<group>"; };
+		CFC5053C2D4F9CFD009550CC /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
+		CFC505422D4F9CFD009550CC /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		CFC505432D4F9CFD009550CC /* CustomStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyles.swift; sourceTree = "<group>"; };
+		CFC505442D4F9CFD009550CC /* SensitiveConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensitiveConfiguration.swift; sourceTree = "<group>"; };
+		CFC5055A2D4F9DBA009550CC /* ListOfPopularMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPopularMoviesViewController.swift; sourceTree = "<group>"; };
+		CFD411B32D4FE37F00FA762B /* SensitiveConfiguration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SensitiveConfiguration.plist; sourceTree = "<group>"; };
+		CFD411B62D4FEDA500FA762B /* InfoMessageCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMessageCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CFC505092D4F9C44009550CC /* Exceptions for "UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo" folder in "UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = CFC504F62D4F9C43009550CC /* UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CFC504F92D4F9C43009550CC /* UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CFC505092D4F9C44009550CC /* Exceptions for "UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo" folder in "UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo" target */,
-			);
-			path = UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CFC504F42D4F9C43009550CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC5055E2D4F9F9B009550CC /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +72,8 @@
 		CFC504EE2D4F9C43009550CC = {
 			isa = PBXGroup;
 			children = (
-				CFC504F92D4F9C43009550CC /* UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo */,
+				CFD411B32D4FE37F00FA762B /* SensitiveConfiguration.plist */,
+				CFC505182D4F9C49009550CC /* UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo */,
 				CFC504F82D4F9C43009550CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +84,170 @@
 				CFC504F72D4F9C43009550CC /* UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC505182D4F9C49009550CC /* UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505102D4F9C49009550CC /* Assets.xcassets */,
+				CFC505112D4F9C49009550CC /* Info.plist */,
+				CFC5050F2D4F9C49009550CC /* AppDelegate.swift */,
+				CFC505162D4F9C49009550CC /* SceneDelegate.swift */,
+				CFC505132D4F9C49009550CC /* LaunchScreen.storyboard */,
+				CFC505152D4F9C49009550CC /* Main.storyboard */,
+				CFC505172D4F9C49009550CC /* MainViewController.swift */,
+				CFC505202D4F9CB1009550CC /* Feature */,
+			);
+			path = UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo;
+			sourceTree = "<group>";
+		};
+		CFC505202D4F9CB1009550CC /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505452D4F9CFD009550CC /* Utils */,
+				CFC505332D4F9CFD009550CC /* Components */,
+				CFC505412D4F9CFD009550CC /* Modules */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		CFC505232D4F9CFD009550CC /* EmptyCell */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505212D4F9CFD009550CC /* EmptyCell.swift */,
+			);
+			path = EmptyCell;
+			sourceTree = "<group>";
+		};
+		CFC505262D4F9CFD009550CC /* InfoMessageCell */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505242D4F9CFD009550CC /* InfoMessageCell.swift */,
+				CFD411B62D4FEDA500FA762B /* InfoMessageCellViewModel.swift */,
+			);
+			path = InfoMessageCell;
+			sourceTree = "<group>";
+		};
+		CFC505282D4F9CFD009550CC /* ItemListCell */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505272D4F9CFD009550CC /* ItemListCell.swift */,
+			);
+			path = ItemListCell;
+			sourceTree = "<group>";
+		};
+		CFC5052B2D4F9CFD009550CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505292D4F9CFD009550CC /* ListOfCellIDs.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CFC5052C2D4F9CFD009550CC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5052B2D4F9CFD009550CC /* Utils */,
+				CFC505232D4F9CFD009550CC /* EmptyCell */,
+				CFC505262D4F9CFD009550CC /* InfoMessageCell */,
+				CFC505282D4F9CFD009550CC /* ItemListCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CFC5052E2D4F9CFD009550CC /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5052D2D4F9CFD009550CC /* LoadingOverlaySingleton.swift */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
+		CFC505312D4F9CFD009550CC /* ButtonFillView */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5052F2D4F9CFD009550CC /* ButtonFillView.swift */,
+			);
+			path = ButtonFillView;
+			sourceTree = "<group>";
+		};
+		CFC505322D4F9CFD009550CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505312D4F9CFD009550CC /* ButtonFillView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFC505332D4F9CFD009550CC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5052C2D4F9CFD009550CC /* Cells */,
+				CFC5052E2D4F9CFD009550CC /* Overlays */,
+				CFC505322D4F9CFD009550CC /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CFC505382D4F9CFD009550CC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505362D4F9CFD009550CC /* ListOfPopularMoviesDataManager.swift */,
+				CFC505372D4F9CFD009550CC /* ListOfPopularMoviesDataModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CFC5053B2D4F9CFD009550CC /* ListOfPopularMoviesModule */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505382D4F9CFD009550CC /* Data */,
+				CFC505592D4F9D47009550CC /* ViewControllers */,
+			);
+			path = ListOfPopularMoviesModule;
+			sourceTree = "<group>";
+		};
+		CFC5053D2D4F9CFD009550CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5053C2D4F9CFD009550CC /* TestingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CFC505402D4F9CFD009550CC /* TestingModule */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5053D2D4F9CFD009550CC /* ViewControllers */,
+			);
+			path = TestingModule;
+			sourceTree = "<group>";
+		};
+		CFC505412D4F9CFD009550CC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505402D4F9CFD009550CC /* TestingModule */,
+				CFC5053B2D4F9CFD009550CC /* ListOfPopularMoviesModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CFC505452D4F9CFD009550CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CFC505422D4F9CFD009550CC /* Configuration.swift */,
+				CFC505432D4F9CFD009550CC /* CustomStyles.swift */,
+				CFC505442D4F9CFD009550CC /* SensitiveConfiguration.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CFC505592D4F9D47009550CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5055A2D4F9DBA009550CC /* ListOfPopularMoviesViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +265,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				CFC504F92D4F9C43009550CC /* UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo */,
-			);
 			name = UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo;
 			packageProductDependencies = (
+				CFC5055D2D4F9F9B009550CC /* Kingfisher */,
 			);
 			productName = UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo;
 			productReference = CFC504F72D4F9C43009550CC /* UIKIT_CLEAN_Tabla_Con_Componentes_Encapsulados_Codigo.app */;
@@ -107,6 +297,9 @@
 			);
 			mainGroup = CFC504EE2D4F9C43009550CC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CFC5055C2D4F9F9B009550CC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CFC504F82D4F9C43009550CC /* Products */;
 			projectDirPath = "";
@@ -122,6 +315,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD411B42D4FE37F00FA762B /* SensitiveConfiguration.plist in Resources */,
+				CFC5051C2D4F9C49009550CC /* Assets.xcassets in Resources */,
+				CFC5051E2D4F9C49009550CC /* LaunchScreen.storyboard in Resources */,
+				CFC5051F2D4F9C49009550CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +329,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC505192D4F9C49009550CC /* AppDelegate.swift in Sources */,
+				CFC5051A2D4F9C49009550CC /* SceneDelegate.swift in Sources */,
+				CFC505462D4F9CFD009550CC /* TestingViewController.swift in Sources */,
+				CFC505482D4F9CFD009550CC /* ListOfCellIDs.swift in Sources */,
+				CFC505492D4F9CFD009550CC /* EmptyCell.swift in Sources */,
+				CFC5054A2D4F9CFD009550CC /* ItemListCell.swift in Sources */,
+				CFC5054B2D4F9CFD009550CC /* LoadingOverlaySingleton.swift in Sources */,
+				CFC5054C2D4F9CFD009550CC /* ListOfPopularMoviesDataModel.swift in Sources */,
+				CFC5054E2D4F9CFD009550CC /* CustomStyles.swift in Sources */,
+				CFC5054F2D4F9CFD009550CC /* ButtonFillView.swift in Sources */,
+				CFC505502D4F9CFD009550CC /* SensitiveConfiguration.swift in Sources */,
+				CFD411B72D4FEDA500FA762B /* InfoMessageCellViewModel.swift in Sources */,
+				CFC505512D4F9CFD009550CC /* ListOfPopularMoviesDataManager.swift in Sources */,
+				CFC5055B2D4F9DBA009550CC /* ListOfPopularMoviesViewController.swift in Sources */,
+				CFC505522D4F9CFD009550CC /* Configuration.swift in Sources */,
+				CFC505532D4F9CFD009550CC /* InfoMessageCell.swift in Sources */,
+				CFC5051B2D4F9C49009550CC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFC505132D4F9C49009550CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC505122D4F9C49009550CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CFC505152D4F9C49009550CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC505142D4F9C49009550CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CFC5050B2D4F9C44009550CC /* Debug */ = {
@@ -335,6 +568,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFC5055C2D4F9F9B009550CC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFC5055D2D4F9F9B009550CC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFC5055C2D4F9F9B009550CC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFC504EF2D4F9C43009550CC /* Project object */;
 }
