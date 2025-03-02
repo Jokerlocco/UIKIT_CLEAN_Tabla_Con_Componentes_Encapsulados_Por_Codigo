@@ -35,12 +35,11 @@ class ListOfPopularMoviesViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        self.setupUI()
+        setupUI()
         Task {
             await fetchAllData()
             reloadTableViewData()
         }
-        
     }
     
     // MARK: - UI Setup
